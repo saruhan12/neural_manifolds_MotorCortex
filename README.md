@@ -14,7 +14,6 @@ Minimal analysis pipeline for DANDI `000129` (MC_RTT) to study low-dimensional p
 .
 ├── scripts/     # CLI entry points
 ├── src/         # Core analysis code
-└── notebooks/   # Optional exploration
 ```
 
 Key code:
@@ -36,7 +35,7 @@ Recommended stack:
 Conda example:
 
 ```bash
-conda create -n rnn_winter python=3.10 numpy scipy scikit-learn matplotlib pynwb
+conda create -n rnn_winter numpy scipy scikit-learn matplotlib pynwb
 conda activate rnn_winter
 ```
 
